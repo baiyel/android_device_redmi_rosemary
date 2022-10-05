@@ -405,11 +405,6 @@ PRODUCT_COPY_FILES += \
 # Overridden props
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 
-# MTK In-Call volumes adjusting service
-PRODUCT_PACKAGES += \
-    MtkInCallService
-
-# IMS
 PRODUCT_PACKAGES += \
     com.android.ims.rcsmanager \
     PresencePolling \
