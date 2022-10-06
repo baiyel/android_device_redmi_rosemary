@@ -404,7 +404,9 @@ PRODUCT_COPY_FILES += \
 
 # Overridden props
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
+include $(DEVICE_PATH)/props/overrides.mk
 
+# RCS
 PRODUCT_PACKAGES += \
     com.android.ims.rcsmanager \
     PresencePolling \
