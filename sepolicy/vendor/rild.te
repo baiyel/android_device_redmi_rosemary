@@ -9,4 +9,3 @@ set_prop(rild, vendor_audio_prop)
 
 allow rild nvram_device:blk_file rw_file_perms;
 allow rild gsi_metadata_file:dir search;
-allow rild metadata_file:dir r_dir_perms;
